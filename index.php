@@ -43,9 +43,9 @@
         }
       ?>
   	<form action="./enter.php" method="post" id="dbsql">
-      <label for="server">Server : </label><input id="server" type="text" name="server" value="localhost" placeholder="localhost"><br><br>
-    	<label for="username">Username : </label><input id="username" type="text" name="username" value="root" required><br><br>
-  		<label for="password">Password : </label><input id="password" type="password" name="password" value=""><br><br>
+      <label for="server">Server : </label><input id="server" type="text" name="server" placeholder="localhost"><br><br>
+    	<label for="username">Username : </label><input id="username" type="text" name="username" required><br><br>
+  		<label for="password">Password : </label><input id="password" type="password" name="password" ><br><br>
   		<input type="submit" name="submit" value="Connect">
   	</form>
   </body>
