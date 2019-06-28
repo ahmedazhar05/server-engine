@@ -50,10 +50,10 @@
 		</script>
     	<?php
 			$user=$password=$db="";
-			$server='localhost';
-    		if (isset($_POST['server']) && strlen($_POST['server']) != 0){
-    			$server=$_POST['server'];
-    		}
+			$server='localhost';//default host
+    			if (isset($_POST['server']) && strlen($_POST['server']) != 0){
+    				$server=$_POST['server'];
+    			}
 			if (isset($_SESSION['user'],$_SESSION['pass'])){
 				$user=$_SESSION['user'];
 				$password=$_SESSION['pass'];
